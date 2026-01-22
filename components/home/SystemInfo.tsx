@@ -2,13 +2,13 @@ export default function SystemInfo() {
     return (
         <div className="bg-[var(--bg-secondary)] rounded-xl border border-[var(--border-color)] overflow-hidden font-mono text-sm shadow-lg mt-6">
             {/* Terminal Header */}
-            <div className="bg-[var(--bg-tertiary)] px-4 py-3 border-b border-[var(--border-color)] flex items-center gap-2">
+            <div className="bg-[var(--bg-tertiary)] px-4 py-3 border-b border-[var(--border-color)] flex items-center justify-between">
+                <span className="text-[var(--text-secondary)]">user@mkshaon.com: ~</span>
                 <div className="flex gap-1.5">
                     <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
                     <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
                     <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
                 </div>
-                <span className="ml-4 text-[var(--text-secondary)]">user@mkshaon.com: ~</span>
             </div>
 
             {/* Terminal Body */}

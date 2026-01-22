@@ -6,13 +6,11 @@ export default function GithubActivity() {
         <div className="bg-[var(--bg-secondary)] rounded-xl border border-[var(--border-color)] overflow-hidden">
             {/* Window Header */}
             <div className="bg-[var(--bg-tertiary)] px-4 py-3 border-b border-[var(--border-color)] flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                    <div className="flex gap-1.5">
-                        <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-                        <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-                        <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
-                    </div>
-                    <span className="ml-4 font-mono text-sm text-[var(--text-secondary)]">Developer_Profile</span>
+                <span className="font-mono text-sm text-[var(--text-secondary)]">Developer_Profile</span>
+                <div className="flex gap-1.5">
+                    <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
                 </div>
             </div>
 
