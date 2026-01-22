@@ -16,27 +16,16 @@ export default function SystemInfo() {
                 {/* Logo and Info Split */}
                 <div className="flex flex-col md:flex-row gap-6 items-start">
 
-                    {/* ASCII Logo - Arch Style (Cyan) - LARGER */}
-                    <div className="text-[var(--accent-primary)] font-bold leading-none hidden md:block select-none text-[18px] flex-shrink-0">
-                        <pre>{`                  -\`
-                 .o+\`
-                \`ooo/
-               \`+oooo:
-              \`+oooooo:
-              -+oooooo+:
-            \`/:-:++oooo+:
-           \`/++++/+++++++:
-          \`/++++++++++++++:
-         \`/+++ooooooooooooo/\`
-        ./ooosssso++osssssso+\`
-       .oossssso-\`\`\`\`/ossssss+\`
-      -osssssso.      :ssssssso.
-     :osssssss/        osssso+++.
-    /ossssssss/        +ssssooo/-
-  \`/ossssso+/:-        -:/+osssso+-
- \`+sso+:-\`                 \`.-/+oso:
-\`++:.                           \`-/+/
-.\`                                 \`/`}</pre>
+                    {/* Profile Image - Replaces ASCII Art */}
+                    <div className="hidden md:block flex-shrink-0">
+                        <div className="relative w-[180px] h-[180px] rounded-full overflow-hidden border-4 border-[var(--accent-primary)] shadow-[0_0_20px_rgba(var(--accent-primary-rgb),0.3)]">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                                src="/you_face.png"
+                                alt="MK Shaon Profile"
+                                className="object-cover w-full h-full"
+                            />
+                        </div>
                     </div>
 
                     {/* Info Block - SMALLER Text */}
