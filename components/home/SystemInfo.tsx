@@ -1,98 +1,112 @@
 export default function SystemInfo() {
     return (
-        <div className="bg-black rounded-xl border border-[#333] overflow-hidden font-mono text-sm shadow-lg mt-6">
+        <div className="bg-[var(--bg-secondary)] rounded-xl border border-[var(--border-color)] overflow-hidden font-mono text-sm shadow-lg mt-6">
             {/* Terminal Header */}
-            <div className="bg-[#1a1a1a] px-4 py-2 border-b border-[#333] flex items-center gap-2">
-                <span className="text-[#0f0] text-xs">[root@kurisPC ~]# neofetch</span>
+            <div className="bg-[var(--bg-tertiary)] px-4 py-3 border-b border-[var(--border-color)] flex items-center gap-2">
+                <div className="flex gap-1.5">
+                    <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
+                </div>
+                <span className="ml-4 text-[var(--text-secondary)]">user@mkshaon.com: ~</span>
             </div>
 
             {/* Terminal Body */}
-            <div className="p-6 bg-black text-white font-fira-code">
-                {/* Command Prompt */}
-                <div className="flex flex-col md:flex-row gap-8 items-start">
-                    {/* ASCII Logo - Arch Linux style with elaborate design */}
-                    <div className="text-[#0dd] font-bold leading-[1.2] select-none text-[11px] whitespace-pre">
-                        {`        .o+\`
-      \`ooo/
-     \`+oooo:
-    \`+oooooo:
-    -+oooooo+:
-  \`/:-:++oooo+:
- \`/++++/+++++++:
-\`/++++++++++++++:
-\`/+++ooooooooooooo/\`
-./ooosssso++osssssso+\`
-.oossssso-\`\`\`\`/ossssss+\`
--osssssso.      :ssssssso.
-:osssssss/        osssso+++.
-/ossssssss/        +ssssooo/-
-\`/ossssso+/:-        -:/+osssso+-
-  \`+sso+:-\`                 \`.-/+oso:
- \`++:.                           \`-/+/
- .\`                                 \`/`}
+            <div className="p-8 text-[#e6edf3] font-fira-code">
+                {/* Logo and Info Split */}
+                <div className="flex flex-col md:flex-row gap-10 items-start">
+
+                    {/* ASCII Logo - Arch Style (Cyan) */}
+                    <div className="text-[var(--accent-primary)] font-bold leading-none hidden md:block select-none text-[14px]">
+                        <pre>{`                  -\`
+                 .o+\`
+                \`ooo/
+               \`+oooo:
+              \`+oooooo:
+              -+oooooo+:
+            \`/:-:++oooo+:
+           \`/++++/+++++++:
+          \`/++++++++++++++:
+         \`/+++ooooooooooooo/\`
+        ./ooosssso++osssssso+\`
+       .oossssso-\`\`\`\`/ossssss+\`
+      -osssssso.      :ssssssso.
+     :osssssss/        osssso+++.
+    /ossssssss/        +ssssooo/-
+  \`/ossssso+/:-        -:/+osssso+-
+ \`+sso+:-\`                 \`.-/+oso:
+\`++:.                           \`-/+/
+.\`                                 \`/`}</pre>
                     </div>
 
                     {/* Info Block */}
-                    <div className="space-y-0.5 text-[13px] leading-relaxed w-full">
-                        <div className="mb-3">
-                            <span className="text-[#0dd] font-bold">root</span>
+                    <div className="space-y-1 text-[13px] leading-relaxed w-full">
+                        <div className="mb-4">
+                            <span className="text-[var(--accent-primary)] font-bold">linuxiac</span>
                             <span className="text-white">@</span>
-                            <span className="text-[#0dd] font-bold">PC</span>
-                            <div className="h-[1px] w-full bg-[#0dd] mt-1 max-w-[400px]"></div>
+                            <span className="text-[var(--accent-primary)] font-bold">arch</span>
+                            <div className="h-[1px] w-full bg-[var(--text-secondary)] mt-1 opacity-50 max-w-[280px]"></div>
                         </div>
 
-                        <div className="grid grid-cols-[100px_1fr] gap-x-3 gap-y-0.5">
-                            <span className="text-[#0dd] font-bold">OS:</span>
-                            <span className="text-white">Arch Linux x86_64</span>
+                        <div className="grid grid-cols-[100px_1fr] gap-x-2">
+                            <span className="text-[var(--accent-primary)] font-bold">OS:</span>
+                            <span>Arch Linux x86_64</span>
 
-                            <span className="text-[#0dd] font-bold">Host:</span>
-                            <span className="text-white">VirtualBox 1.2</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Host:</span>
+                            <span>KVM/QEMU (Standard PC)</span>
 
-                            <span className="text-[#0dd] font-bold">Kernel:</span>
-                            <span className="text-white">5.9.12-arch1-1</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Kernel:</span>
+                            <span>6.8.8-arch1-1</span>
 
-                            <span className="text-[#0dd] font-bold">Uptime:</span>
-                            <span className="text-white">30 secs</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Uptime:</span>
+                            <span>2 mins</span>
 
-                            <span className="text-[#0dd] font-bold">Packages:</span>
-                            <span className="text-white">163 (pacman)</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Packages:</span>
+                            <span>991 (pacman), 5 (flatpak)</span>
 
-                            <span className="text-[#0dd] font-bold">Shell:</span>
-                            <span className="text-white">bash 5.0.18</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Shell:</span>
+                            <span>bash 5.2.26</span>
 
-                            <span className="text-[#0dd] font-bold">Resolution:</span>
-                            <span className="text-white">preferred</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Resolution:</span>
+                            <span>1680x1050</span>
 
-                            <span className="text-[#0dd] font-bold">Terminal:</span>
-                            <span className="text-white">/dev/tty1</span>
+                            <span className="text-[var(--accent-primary)] font-bold">DE:</span>
+                            <span>GNOME 46.1</span>
 
-                            <span className="text-[#0dd] font-bold">CPU:</span>
-                            <span className="text-white">Intel Pentium 3805U (1) @ 1.895GHz</span>
+                            <span className="text-[var(--accent-primary)] font-bold">WM:</span>
+                            <span>Mutter</span>
 
-                            <span className="text-[#0dd] font-bold">GPU:</span>
-                            <span className="text-white">00:02.0 VMware SVGA II Adapter</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Theme:</span>
+                            <span>Adwaita [GTK2/3]</span>
 
-                            <span className="text-[#0dd] font-bold">Memory:</span>
-                            <span className="text-white">64MiB / 927MiB</span>
+                            <span className="text-[var(--accent-primary)] font-bold">Icons:</span>
+                            <span>Papirus [GTK2/3]</span>
+
+                            <span className="text-[var(--accent-primary)] font-bold">Terminal:</span>
+                            <span>kgx</span>
+
+                            <span className="text-[var(--accent-primary)] font-bold">CPU:</span>
+                            <span>AMD Ryzen 7 7700X (2)</span>
+
+                            <span className="text-[var(--accent-primary)] font-bold">GPU:</span>
+                            <span>Red Hat Virtio 1.0 GPU</span>
+
+                            <span className="text-[var(--accent-primary)] font-bold">Memory:</span>
+                            <span>1068MiB / 3900MiB</span>
                         </div>
 
-                        {/* Color Palette - Terminal Colors */}
-                        <div className="flex gap-0 mt-4 pt-3">
-                            <div className="w-12 h-6 bg-[#000000]"></div>
-                            <div className="w-12 h-6 bg-[#aa0000]"></div>
-                            <div className="w-12 h-6 bg-[#00aa00]"></div>
-                            <div className="w-12 h-6 bg-[#aa5500]"></div>
-                            <div className="w-12 h-6 bg-[#0000aa]"></div>
-                            <div className="w-12 h-6 bg-[#aa00aa]"></div>
-                            <div className="w-12 h-6 bg-[#00aaaa]"></div>
-                            <div className="w-12 h-6 bg-[#aaaaaa]"></div>
+                        {/* Color Palette */}
+                        <div className="flex gap-3 mt-6 pt-2">
+                            <div className="w-4 h-4 rounded bg-[#282c34]"></div>
+                            <div className="w-4 h-4 rounded bg-[#e06c75]"></div>
+                            <div className="w-4 h-4 rounded bg-[#98c379]"></div>
+                            <div className="w-4 h-4 rounded bg-[#e5c07b]"></div>
+                            <div className="w-4 h-4 rounded bg-[#61afef]"></div>
+                            <div className="w-4 h-4 rounded bg-[#c678dd]"></div>
+                            <div className="w-4 h-4 rounded bg-[#56b6c2]"></div>
+                            <div className="w-4 h-4 rounded bg-[#abb2bf]"></div>
                         </div>
                     </div>
-                </div>
-
-                {/* Bottom Command Prompt */}
-                <div className="mt-4 text-[#0f0] text-xs">
-                    [root@<span className="bg-[#555] px-2">████</span>PC ~]#
                 </div>
             </div>
         </div>
