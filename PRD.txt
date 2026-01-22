@@ -1,0 +1,1043 @@
+# Product Requirements Document (PRD)
+## Personal Portfolio & Blog Website for MK Shaon
+
+---
+
+## 1. Executive Summary
+
+### 1.1 Product Vision
+Create a professional, monetizable personal portfolio and blog website that showcases MK Shaon's identity as a content creator, developer, and technology enthusiast. The website will feature a unique social media-inspired homepage, professional blog section, and comprehensive about page while being optimized for Google AdSense monetization.
+
+### 1.2 Target Audience
+- Technology enthusiasts
+- Potential collaborators and clients
+- YouTube and Facebook followers
+- Fellow developers and students
+- Recruiters and educational institutions
+
+### 1.3 Business Goals
+- Establish professional online presence
+- Monetize through Google AdSense
+- Drive traffic from social media channels
+- Showcase technical skills and projects
+- Build authority in tech/AI space
+
+---
+
+## 2. Website Structure & Pages
+
+### 2.1 Core Pages
+1. **Homepage** (mkshaon.com)
+2. **About Me** (mkshaon.com/about)
+3. **Blog Listing** (mkshaon.com/blog)
+4. **Individual Blog Posts** (mkshaon.com/blog/[post-slug])
+5. **My Projects** (mkshaon.com/projects)
+6. **Resources** (mkshaon.com/resources)
+7. **Contact** (mkshaon.com/contact)
+
+---
+
+## 3. Detailed Page Specifications
+
+### 3.1 HOMEPAGE (Social Media Inspired Layout)
+
+#### 3.1.1 Header Section
+**Components:**
+- Logo/Brand name "MK Shaon" (top left)
+- Navigation menu (center/right):
+  - Home
+  - About Me
+  - My Projects
+  - Blog
+  - Resources
+  - Contact
+- Search bar with keyboard shortcut indicator (CTRL + K)
+- Notification bell icon
+- Profile avatar with dropdown menu (top right)
+  - Pro Member badge
+  - Settings
+  - Logout option
+
+**Design Specifications:**
+- Fixed/sticky header on scroll
+- Dark theme with semi-transparent background
+- Height: 70-80px
+- Smooth shadow on scroll
+
+#### 3.1.2 Main Content Area (Facebook-Style Feed Layout)
+
+**Left Sidebar (Profile Card):**
+- Circular profile photo (150x150px)
+- Name: "MK Shaon"
+- Tagline: "Personal • Content Creator • Developer • Entrepreneur"
+- Location: Dhaka, Bangladesh
+- Nickname/Handle: light_yagami_walter
+- Social media statistics:
+  - YouTube: 26K subscribers (with icon)
+  - Facebook: 32K followers (with icon)
+- Social media icon links:
+  - Facebook
+  - YouTube
+  - Instagram
+  - Telegram
+  - WhatsApp
+  - GitHub
+  - Email
+
+**Width:** 320-350px (fixed on desktop)
+**Styling:** Card-based design with subtle shadow
+
+**Center Content Feed:**
+
+**Section 1: GitHub Activity Panel**
+- Title: "Developer_Profile"
+- ASCII art avatar representation (terminal style)
+- GitHub statistics:
+  - 540 Contributions
+  - Date range (Dec 2, 2024 - Dec 2, 2025)
+  - Contribution calendar (GitHub-style heatmap)
+  - Settings button (2025, 2024, 2023 year selector)
+  - Activity intensity indicator (LESS to MORE)
+- Link: "Learn how we count contributions"
+
+**Section 2: System Information Panel (Neofetch Style)**
+- Terminal window design with traffic light buttons (red, yellow, green)
+- Terminal prompt: "user@mkshaon.com:~>"
+- ASCII art logo (left side)
+- System information display:
+  ```
+  linuxiac@arch
+  --------------
+  OS: Arch Linux x86_64
+  Host: KVM/QEMU (Standard PC (Q35 + ICH9, 2009) pc-q35-8.0)
+  Kernel: 6.8.8-arch1-1
+  Uptime: 2 mins
+  Packages: 991 (pacman), 5 (flatpak)
+  Shell: bash 5.2.26
+  Resolution: 1680x1050
+  DE: GNOME 46.1
+  WM: Mutter
+  WM_Theme: Adwaita
+  Theme: Adwaita [GTK2/3]
+  Icons: Papirus [GTK2/3]
+  Terminal: kgx
+  CPU: AMD Ryzen 7 7700X (2) @ 4.491GHz
+  GPU: 00:01.0 Red Hat, Inc. Virtio 1.0 GPU
+  Memory: 1068MiB / 3900MiB
+  ```
+- Color palette display at bottom
+
+**Section 3: Get In Touch Card**
+- Title: "Get in Touch"
+- Subtitle: "Send me a message"
+- Contact form:
+  - Your name (optional) - text input
+  - Your email (optional) - email input
+  - Message textarea
+  - Send button
+- Icon: Mail/envelope icon
+
+**Section 4: Currently Playing Music Widget**
+- Two song cards side by side:
+  - "On My Way" by Alan Walker (Dance, 3:13)
+  - "Faded" by Alan Walker (Dance, 3:13)
+- Album artwork thumbnails
+- Playback controls:
+  - Previous, Play/Pause, Next buttons
+  - Shuffle and repeat options
+- Progress bar (0:00 - 3:13)
+
+**Right Sidebar:**
+- "Recent Projects" section listing:
+  - Social Sentry
+  - MyTube
+  - PVC-Perseverance
+- Quick links
+- Advertisements (Google AdSense placement)
+
+**Width:** Fluid/responsive
+
+---
+
+### 3.2 ABOUT ME PAGE (Terminal/Developer Style)
+
+#### 3.2.1 Hero Section
+- Terminal window aesthetic with macOS-style traffic lights
+- Command prompt: "user@mkshaon.com:~>"
+- Large heading: "> MK Shaon"
+- Profile information in code-style format:
+  ```
+  Page: Personal • Content Creator • Developer • Entrepreneur
+  Location: Dhaka, Bangladesh
+  Nickname: light_yagami_walter
+  YouTube: https://www.youtube.com/@mkshaon7
+  ```
+- Social media icon row (Facebook, YouTube, Instagram, Telegram, WhatsApp, GitHub, Email)
+
+#### 3.2.2 Content Sections
+
+**Developer Profile Section:**
+- Heading with code bracket: "<> Developer_Profile"
+- Professional bio paragraph describing:
+  - Passion for coding and creating impactful applications
+  - Dedication to exploring new technologies
+  - Innovation drive
+  - Technology stack: React, Node.js, modern web technologies
+
+**Education Status Section:**
+- Icon: Graduation cap
+- Heading: "> Education_Status"
+- Description: Currently pursuing higher education
+- Content focus areas
+
+**Content Creation Section:**
+- Icon: Video camera
+- Heading: "> Content_Creation"
+- Description of "Study With Me" video specialization
+- Mention of Pomodoro techniques
+- Audience size and engagement
+
+**Additional Sections to Include:**
+- Skills & Technologies (with icons/badges)
+- Timeline/Journey
+- Achievements & Milestones
+- Personality traits (analytical, creative, ambitious)
+- Future goals in computer science and AI
+
+---
+
+### 3.3 MY PROJECTS PAGE
+
+#### 3.3.1 Hero Section
+- Keyboard visual illustration
+- Heading: "My Projects" (large, gradient cyan color)
+- Tagline: "Building tools for focus, productivity, and distraction-free learning"
+
+#### 3.3.2 Featured Projects Section
+- Star icon with "Featured Projects" heading
+- Project cards in grid layout (3 columns on desktop)
+
+**Project Card Template:**
+
+**Card 1: PVC-Perseverance**
+- Icon: Clock in cyan circle
+- Title: "PVC-Perseverance"
+- Subtitle: "Advanced Pomodoro Timer"
+- Description: Comprehensive Pomodoro timer app with auto-save, analytics, and full customization built by MKShaon for focused, distraction-free studying
+- Tags: Android App, Pomodoro Timer, Productivity, Focus
+- "Learn More →" link
+
+**Card 2: No-Shorts-No-Distraction-YT**
+- Icon: YouTube play button in red/pink circle
+- Title: "No-Shorts-No-Distraction-YT"
+- Subtitle: "YouTube Focus Extension"
+- External link icon
+- Description: Browser extension that blocks ads, YouTube shorts, feed, and turns off autoplay recommendations and suggestions for distraction-free viewing
+- Tags: Browser Extension, Productivity, Focus
+- "Learn More →" link
+
+**Card 3: Social Sentry**
+- Icon: Shield in blue circle
+- Title: "Social Sentry"
+- Subtitle: "Social Media Focus Tool"
+- Description: Android app that helps block distracting content on social media platforms, specifically Reels, Shorts, and Stories features using Android's accessibility services
+- Tags: Android App, Productivity, Focus, Accessibility
+- "Learn More →" link
+
+#### 3.3.3 All Projects Section
+- Heading: "All Projects"
+- Grid layout continuing below featured section
+
+**Additional Project Cards:**
+
+**No-reels-no-Distraction-Fb**
+- Facebook icon in blue circle
+- Description with external link
+- Tags and Learn More link
+
+**Morning Study Sessions**
+- Sun/sunrise icon in orange/yellow circle
+- Description
+- Tags and Learn More link
+
+**Card Design Specifications:**
+- Dark background with subtle gradient
+- Rounded corners (12-16px radius)
+- Hover effect: slight elevation and glow
+- Icon size: 48x48px in colored circle background
+- Consistent padding: 24-32px
+- Typography hierarchy: Title (24px) > Subtitle (18px) > Description (16px)
+
+---
+
+### 3.4 BLOG LISTING PAGE (mkshaon.com/blog)
+
+#### 3.4.1 Hero Section
+- Clean, minimal design
+- Page title: "Blog" or "Articles"
+- Subtitle: "Thoughts on technology, productivity, and learning"
+- Search functionality
+
+#### 3.4.2 Featured/Most Visited Section
+- Prominent placement at top
+- Large featured card with:
+  - Featured image/thumbnail
+  - Category tag
+  - Title (larger font)
+  - Excerpt (2-3 lines)
+  - Author (MK Shaon) + date
+  - Read time estimate
+  - View count indicator
+  - "Featured" or "Most Visited" badge
+
+#### 3.4.3 Category Filter
+- Horizontal tab navigation:
+  - All Posts
+  - Technology
+  - AI & Machine Learning
+  - Productivity
+  - Tutorials
+  - Personal Growth
+  - Reviews
+
+#### 3.4.4 Blog Posts Grid
+- 2-3 column grid layout (responsive)
+- Blog card components including:
+  - Thumbnail image (16:9 ratio)
+  - Category badge (colored)
+  - Title (2 lines max with ellipsis)
+  - Excerpt (3 lines max)
+  - Metadata row:
+    - Author avatar + name
+    - Date published
+    - Read time
+    - View count/engagement metrics
+  - Hover effects: lift and shadow
+
+#### 3.4.5 Sidebar (Desktop)
+- "Popular Posts" widget
+- "Categories" list with post counts
+- "Tags" cloud
+- Newsletter signup form
+- Ad placement (Google AdSense)
+
+#### 3.4.6 Pagination
+- Load more button or numbered pagination
+- "Back to top" button
+
+**Design Reference:** ELLE Magazine style - elegant, magazine-like layout with large imagery
+
+---
+
+### 3.5 INDIVIDUAL BLOG POST PAGE (mkshaon.com/blog/[post-slug])
+
+#### 3.5.1 Article Header
+- Breadcrumb navigation (Home > Blog > Category > Post Title)
+- Category badge
+- Article title (large, bold, 36-48px)
+- Author information:
+  - Avatar
+  - Name: MK Shaon
+  - Publication date
+  - Last updated date
+  - Read time estimate
+- Social share buttons (Facebook, Twitter, LinkedIn, Copy link)
+- Featured image (full-width or contained)
+
+#### 3.5.2 Article Content
+- Clean, readable typography:
+  - Font: Serif or clean sans-serif
+  - Size: 18-20px
+  - Line height: 1.7-1.8
+  - Max width: 720-800px (centered)
+- Content formatting support:
+  - Headings (H2, H3, H4)
+  - Paragraphs with proper spacing
+  - Bold, italic, links
+  - Blockquotes (styled distinctly)
+  - Code blocks (syntax highlighted)
+  - Images with captions
+  - Bullet and numbered lists
+  - Tables
+  - Embedded videos/iframes
+- Table of contents (sticky sidebar for long articles)
+- Progress indicator (reading progress bar at top)
+
+#### 3.5.3 Article Sidebar (Desktop)
+- Author bio card
+- Table of contents
+- Related posts (3-4 cards)
+- Ad placements (Google AdSense - strategic placement)
+- Social share (sticky)
+
+#### 3.5.4 Article Footer
+- Tags section
+- "Was this helpful?" feedback widget
+- Social share row (expanded)
+- Author bio (expanded version with social links)
+
+#### 3.5.5 Comments Section
+- Heading: "Join the Discussion"
+- Comment system integration (options):
+  - Custom comment system
+  - Disqus
+  - Facebook Comments
+  - Or disabled initially
+- Comment count display
+
+#### 3.5.6 Related Articles
+- Heading: "You Might Also Like" or "Related Posts"
+- 3-4 article cards in grid
+- Smart recommendation based on:
+  - Same category
+  - Similar tags
+  - Popular posts
+
+#### 3.5.7 Newsletter CTA
+- Prominent signup section:
+  - Heading: "Stay Updated"
+  - Subheading: "Get the latest posts delivered right to your inbox"
+  - Email input + Subscribe button
+
+---
+
+### 3.6 RESOURCES PAGE
+
+#### 3.6.1 Content
+- Curated tools and resources for:
+  - Productivity
+  - Development tools
+  - Learning platforms
+  - AI resources
+  - Content creation tools
+- Each resource with:
+  - Icon/logo
+  - Description
+  - External link
+  - Category tags
+
+---
+
+### 3.7 CONTACT PAGE
+
+#### 3.7.1 Contact Form
+- Fields:
+  - Full Name (required)
+  - Email (required)
+  - Subject (required)
+  - Message (required, textarea)
+  - Submit button
+- Form validation
+- Success/error messages
+
+#### 3.7.2 Alternative Contact Methods
+- Email address (clickable mailto link)
+- Social media links repeated
+- Response time expectation
+- Location (Dhaka, Bangladesh)
+
+---
+
+## 4. Global Components
+
+### 4.1 Header (All Pages)
+**Desktop Version:**
+- Height: 70-80px
+- Logo/Brand (left): "MK Shaon" or logo mark
+- Navigation (center/right):
+  - Home
+  - About Me
+  - My Projects
+  - Blog
+  - Resources
+  - Contact
+- Search bar with icon (CTRL + K shortcut)
+- Theme toggle (light/dark mode)
+- Profile avatar with dropdown (if logged in features later)
+
+**Mobile Version:**
+- Hamburger menu icon
+- Logo center
+- Slide-out navigation drawer
+
+**Behavior:**
+- Sticky/fixed on scroll
+- Background becomes opaque on scroll
+- Active page indication
+- Smooth transitions
+
+### 4.2 Footer (All Pages)
+**Layout:** 4-column grid (responsive to 1 column on mobile)
+
+**Column 1: About**
+- Logo/Brand name
+- Short bio (2-3 lines)
+- "Learn more about me" link
+
+**Column 2: Quick Links**
+- About Me
+- My Projects
+- Blog
+- Resources
+- Contact
+
+**Column 3: Categories (Blog)**
+- Technology
+- AI & ML
+- Productivity
+- Tutorials
+- Personal
+
+**Column 4: Connect**
+- Social media icons with links:
+  - YouTube (26K subscribers badge)
+  - Facebook (32K followers badge)
+  - Instagram
+  - GitHub
+  - Telegram
+  - Email
+- Newsletter signup (email input + button)
+
+**Bottom Bar:**
+- Copyright: "© 2025 MK Shaon. All rights reserved."
+- Legal links:
+  - Privacy Policy
+  - Terms of Service
+  - Cookie Policy
+- "Made with ❤️ in Bangladesh"
+- Language selector (if multilingual)
+
+**Design:**
+- Dark background
+- Subtle top border
+- Proper spacing and padding
+- Responsive column collapse
+
+---
+
+## 5. Design System & Theme
+
+### 5.1 Color Palette
+
+**Dark Theme (Primary):**
+- Background Primary: #0d1117 (dark gray/black)
+- Background Secondary: #161b22 (lighter dark)
+- Background Tertiary: #21262d (card backgrounds)
+- Text Primary: #e6edf3 (light gray/white)
+- Text Secondary: #7d8590 (muted gray)
+- Accent Primary: #00d9ff (cyan - for CTAs and highlights)
+- Accent Secondary: #3fb950 (green - for success/GitHub)
+- Accent Tertiary: #58a6ff (blue - for links)
+- Border Color: #30363d
+- Shadow: rgba(0, 0, 0, 0.3)
+
+**Light Theme (Alternative):**
+- Background: #ffffff
+- Surface: #f6f8fa
+- Text: #24292f
+- Accent: #0969da
+- Border: #d0d7de
+
+### 5.2 Typography
+
+**Font Families:**
+- **Headings:** 'Inter', 'SF Pro Display', -apple-system, sans-serif
+- **Body:** 'Inter', 'SF Pro Text', -apple-system, sans-serif
+- **Code:** 'Fira Code', 'JetBrains Mono', 'Courier New', monospace
+
+**Type Scale:**
+- H1: 48px (bold, line-height: 1.1)
+- H2: 36px (bold, line-height: 1.2)
+- H3: 28px (semibold, line-height: 1.3)
+- H4: 24px (semibold, line-height: 1.4)
+- H5: 20px (medium, line-height: 1.5)
+- Body Large: 18px (regular, line-height: 1.7)
+- Body: 16px (regular, line-height: 1.6)
+- Body Small: 14px (regular, line-height: 1.5)
+- Caption: 12px (regular, line-height: 1.4)
+
+### 5.3 Spacing System
+- Base unit: 8px
+- Scale: 4px, 8px, 12px, 16px, 24px, 32px, 48px, 64px, 96px
+
+### 5.4 Border Radius
+- Small: 4px (buttons, inputs)
+- Medium: 8px (cards)
+- Large: 12px (modals, featured cards)
+- XLarge: 16px (hero sections)
+- Round: 50% (avatars, icons)
+
+### 5.5 Shadows
+- Small: 0 1px 3px rgba(0,0,0,0.12)
+- Medium: 0 4px 6px rgba(0,0,0,0.16)
+- Large: 0 10px 25px rgba(0,0,0,0.20)
+- Glow: 0 0 20px rgba(0,217,255,0.3)
+
+### 5.6 Animations & Transitions
+- Duration: 200ms (fast), 300ms (normal), 500ms (slow)
+- Easing: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1)
+- Hover effects: translate, scale, opacity, shadow
+- Page transitions: fade, slide
+
+---
+
+## 6. Responsive Design Specifications
+
+### 6.1 Breakpoints
+- Mobile: 320px - 767px
+- Tablet: 768px - 1023px
+- Desktop: 1024px - 1439px
+- Large Desktop: 1440px+
+
+### 6.2 Layout Behavior
+
+**Homepage:**
+- **Desktop:** 3-column layout (Left sidebar + Center feed + Right sidebar)
+- **Tablet:** 2-column (Center feed + Right sidebar, left sidebar collapses to top)
+- **Mobile:** Single column, stack all sections
+
+**Blog Listing:**
+- **Desktop:** 3-column grid + sidebar
+- **Tablet:** 2-column grid + sidebar below
+- **Mobile:** Single column list
+
+**Blog Post:**
+- **Desktop:** Content center (720px max) + sticky sidebar
+- **Tablet:** Full width content, sidebar below
+- **Mobile:** Full width, all elements stacked
+
+**Projects:**
+- **Desktop:** 3-column grid
+- **Tablet:** 2-column grid
+- **Mobile:** Single column
+
+### 6.3 Mobile Optimizations
+- Hamburger menu navigation
+- Touch-friendly buttons (minimum 44x44px)
+- Simplified header (logo + menu icon)
+- Collapsible sections
+- Optimized images (WebP format, lazy loading)
+- Reduced animations
+- Bottom navigation bar (optional)
+
+---
+
+## 7. Technical Requirements
+
+### 7.1 Technology Stack Recommendations
+
+**Frontend:**
+- Framework: Next.js 14+ (React)
+- Styling: Tailwind CSS + CSS Modules
+- Animation: Framer Motion
+- Icons: React Icons or Heroicons
+- State Management: React Context / Zustand
+
+**Backend/CMS:**
+- Option 1: Next.js API Routes + MDX for blog
+- Option 2: Headless CMS (Contentful, Sanity, or Strapi)
+- Option 3: WordPress REST API
+
+**Database:**
+- PostgreSQL or MongoDB (for comments, analytics)
+- Or Firebase/Supabase for simpler setup
+
+**Hosting:**
+- Vercel (recommended for Next.js)
+- Alternative: Netlify, AWS Amplify
+
+**Domain:**
+- mkshaon.com
+
+### 7.2 Performance Requirements
+- **Page Load Time:** < 3 seconds (desktop), < 4 seconds (mobile)
+- **First Contentful Paint (FCP):** < 1.5 seconds
+- **Time to Interactive (TTI):** < 3.5 seconds
+- **Lighthouse Score:** 90+ (all categories)
+- **Core Web Vitals:**
+  - LCP (Largest Contentful Paint): < 2.5s
+  - FID (First Input Delay): < 100ms
+  - CLS (Cumulative Layout Shift): < 0.1
+
+### 7.3 SEO Requirements
+
+**Technical SEO:**
+- Semantic HTML5 markup
+- Proper heading hierarchy (H1 → H2 → H3)
+- Meta tags (title, description, keywords)
+- Open Graph tags (Facebook, LinkedIn)
+- Twitter Card tags
+- Canonical URLs
+- XML sitemap
+- Robots.txt
+- Structured data (JSON-LD):
+  - Person schema (homepage)
+  - Article schema (blog posts)
+  - BreadcrumbList schema
+- Alt text for all images
+- Clean URL structure (no special characters)
+
+**Content SEO:**
+- Target keyword research and optimization
+- Internal linking strategy
+- External linking to authoritative sources
+- Image optimization (alt text, compression)
+- Mobile-friendly design
+
+**Blog-Specific SEO:**
+- Category and tag taxonomy
+- Related posts suggestions
+- Author bio with schema markup
+- Publish and updated dates
+- Reading time
+- Social sharing functionality
+
+### 7.4 Google AdSense Integration
+
+**Ad Placement Strategy:**
+
+**Homepage:**
+- Top banner (728x90 leaderboard - desktop)
+- Right sidebar (300x250 medium rectangle)
+- In-feed ad (between sections)
+- Bottom banner (728x90 leaderboard)
+
+**Blog Listing:**
+- Top banner
+- Sidebar ads (300x600 half page)
+- Between blog post cards (every 6-8 posts)
+
+**Blog Post:**
+- Above content (responsive ad unit)
+- Within content (after 2-3 paragraphs)
+- Sidebar ads (300x250, 300x600)
+- Below content (before comments)
+- Sticky side rail (desktop only)
+
+**Best Practices:**
+- Use Auto Ads for optimization
+- Implement lazy loading for ads
+- Ensure ads don't violate Better Ads Standards
+- Monitor ad viewability
+- Avoid excessive ad density
+- Test ad placements for revenue optimization
+- Comply with GDPR/CCPA (cookie consent)
+
+**Ad Units:**
+- Responsive display ads
+- In-feed ads
+- In-article ads
+- Multiplex ads (related content)
+- Auto ads (AI-optimized placement)
+
+### 7.5 Analytics & Tracking
+- Google Analytics 4
+- Google Search Console
+- Facebook Pixel (for social traffic)
+- Heatmap tool (Hotjar or Microsoft Clarity)
+- Custom event tracking:
+  - Button clicks
+  - Video plays
+  - Download/external links
+  - Social shares
+  - Time on page
+  - Scroll depth
+
+### 7.6 Security Requirements
+- HTTPS (SSL certificate)
+- Content Security Policy (CSP)
+- XSS protection
+- CSRF protection
+- Rate limiting (API endpoints)
+- Input sanitization
+- Secure headers (HSTS, X-Frame-Options)
+- Regular dependency updates
+- DDoS protection (Cloudflare)
+
+### 7.7 Accessibility (WCAG 2.1 Level AA)
+- Keyboard navigation support
+- Screen reader compatibility
+- ARIA labels and landmarks
+- Color contrast ratios (4.5:1 minimum)
+- Focus indicators
+- Alt text for images
+- Captions for videos
+- Resizable text (up to 200%)
+- Skip navigation links
+- Form labels and error messages
+- Accessible modals and dropdowns
+
+---
+
+## 8. Content Management
+
+### 8.1 Blog Post Structure
+**Required Fields:**
+- Title (SEO optimized)
+- Slug (URL-friendly)
+- Author (default: MK Shaon)
+- Publication date
+- Last updated date
+- Featured image (1200x630px for social sharing)
+- Category (single select)
+- Tags (multiple)
+- Excerpt/Meta description (150-160 characters)
+- Content (Markdown or Rich Text)
+- Status (Draft, Scheduled, Published)
+- View count
+- Reading time (auto-calculated)
+
+**Optional Fields:**
+- Custom OG image
+- Canonical URL (if republished)
+- Featured post toggle
+- Comments enabled/disabled
+- Related posts (manual selection)
+
+### 8.2 Content Categories
+1. Technology
+2. AI & Machine Learning
+3. Productivity & Focus
+4. Web Development
+5. Tutorials & Guides
+6. Product Reviews
+7. Personal Growth
+8. Student Life
+9. Content Creation
+10. Tool Recommendations
+
+### 8.3 Editorial Workflow
+- Draft → Review → Scheduled → Published
+- Revision history
+- Auto-save functionality
+- Preview before publish
+- SEO score checker (Yoast-like)
+- Plagiarism check integration
+- Grammar check (Grammarly integration)
+
+---
+
+## 9. Monetization Strategy
+
+### 9.1 Primary Revenue: Google AdSense
+- Display ads (strategic placement)
+- Auto ads optimization
+- Responsive ad units
+- Target: $X per 1000 pageviews (RPM)
+
+### 9.2 Secondary Revenue Streams (Future)
+- Affiliate marketing (Amazon Associates, tech products)
+- Sponsored posts
+- Digital products (eBooks, courses)
+- Consulting services
+- Exclusive content (membership/Patreon)
+- YouTube channel integration
+
+### 9.3 Traffic Goals
+- Month 1-3: 5,000 pageviews/month
+- Month 4-6: 15,000 pageviews/month
+- Month 7-12: 50,000+ pageviews/month
+
+---
+
+## 10. User Experience Features
+
+### 10.1 Interactive Elements
+- Smooth scroll animations
+- Parallax effects (subtle)
+- Hover state animations
+- Loading skeletons
+- Toast notifications
+- Modal dialogs
+- Tooltips
+- Progress indicators
+- Lazy loading images
+- Infinite scroll or pagination
+
+### 10.2 Personalization (Future Phase)
+- Save favorite posts
+- Reading history
+- Bookmarks
+- Theme preference (saved)
+- Font size adjustment
+- Notification preferences
+
+### 10.3 Social Features
+- Social sharing (pre-populated text)
+- Share count display
+- "Click to Tweet" quotes within articles
+- Author follow buttons
+- Newsletter integration
+- Comment threading
+
+---
+
+## 11. Third-Party Integrations
+
+### 11.1 Essential Integrations
+- **Google AdSense** (monetization)
+- **Google Analytics** (tracking)
+- **Google Search Console** (SEO)
+- **Mailchimp/ConvertKit** (newsletter)
+- **Cloudflare** (CDN + security)
+- **Vercel/Netlify** (hosting)
+
+### 11.2 Optional Integrations
+- **Disqus/Commento** (comments)
+- **Algolia** (search)
+- **Spotify API** (music widget)
+- **GitHub API** (contributions)
+- **YouTube API** (video stats)
+- **Facebook Graph API** (follower count)
+- **Medium** (cross-posting)
+- **Buffer/Hootsuite** (social scheduling)
+
+---
+
+## 12. Development Phases
+
+### Phase 1: Foundation (Weeks 1-2)
+- Project setup and configuration
+- Design system implementation
+- Header and footer components
+- Homepage layout structure
+- About page
+
+### Phase 2: Core Features (Weeks 3-4)
+- Blog listing page
+- Blog post template
+- Projects page
+- Contact page
+- Resources page
+- Navigation and routing
+
+### Phase 3: Content & CMS (Week 5)
+- CMS integration
+- Content migration
+- Blog post creation workflow
+- Image optimization
+- SEO meta tags
+
+### Phase 4: Integrations (Week 6)
+- Google AdSense setup
+- Analytics integration
+- Social media APIs
+- Newsletter signup
+- Contact form backend
+
+### Phase 5: Testing & Optimization (Week 7)
+- Cross-browser testing
+- Mobile responsive testing
+- Performance optimization
+- SEO audit
+- Accessibility testing
+- Security hardening
+
+### Phase 6: Launch (Week 8)
+- Domain configuration
+- SSL setup
+- Content final review
+- Soft launch (beta)
+- Bug fixes
+- Official launch
+- Social media announcement
+
+### Phase 7: Post-Launch (Ongoing)
+- Content publishing schedule
+- Analytics monitoring
+- AdSense optimization
+- SEO improvements
+- User feedback implementation
+- Feature enhancements
+
+---
+
+## 13. Content Strategy
+
+### 13.1 Blog Post Frequency
+- Initial: 2-3 posts per week
+- Target: 4-5 posts per week
+- Mix of evergreen and trending topics
+
+### 13.2 Content Pillars
+1. **Technology & AI** (30%)
+   - AI tools and trends
+   - Tech news analysis
+   - Future predictions
+
+2. **Productivity & Focus** (25%)
+   - Study techniques
+   - Time management
+   - Tool reviews
+
+3. **Web Development** (20%)
+   - Tutorials
+   - Best practices
+   - Project showcases
+
+4. **Student Life** (15%)
+   - Education tips
+   - Career guidance
+   - Personal experiences
+
+5. **Content Creation** (10%)
+   - YouTube strategies
+   - Social media growth
+   - Equipment reviews
+
+### 13.3 SEO Content Guidelines
+- Target keyword in title
+- Keyword in first 100 words
+- Internal linking (2-3 per post)
+- External authoritative links
+- Image alt text optimization
+- Meta description optimization
+- Long-form content (1500+ words for pillar posts)
+- FAQ sections for featured snippets
+
+---
+
+## 14. Success Metrics
+
+### 14.1 Traffic Metrics
+- Pageviews per month
+- Unique visitors
+- Bounce rate (target: <50%)
+- Average session duration (target: >2 minutes)
+- Pages per session (target: >2)
+
+### 14.2 Engagement Metrics
+- Time on page (target: >3 minutes for blog posts)
+- Scroll depth
+- Social shares
+- Comments per post
+- Newsletter signups
+- Return visitor rate
+
+### 14.3 Monetization Metrics
+- AdSense revenue per month
+- RPM (Revenue per 1000 impressions)
+- CTR (Click-through rate)
+- Viewable impression rate
+- Ad placement performance
+
+### 14.4 SEO Metrics
+- Organic traffic percentage
+- Keyword rankings
+- Domain authority growth
+- Backlinks acquired
+- Featured snippets earned
+
+---
+
+## 15. Brand Guidelines
+
+### 15.1 Voice & Tone
+- **Voice:** Knowledgeable, approachable, enthusiastic
+- **Tone:** Professional yet conversational, helpful, encouraging
+- **Style:** Clear, concise, educational
+
+### 15.2 Writing Guidelines
+- Use first person ("I") for personal stories
+- Use second person ("you") for tutorials
+- Active voice
