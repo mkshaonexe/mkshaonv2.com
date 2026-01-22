@@ -15,7 +15,7 @@ export default function Header() {
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
                     {[
-                        { name: 'Home', href: '/', active: true },
+                        { name: 'Home', href: '/' },
                         { name: 'About Me', href: '/about' },
                         { name: 'My Projects', href: '/projects' },
                         { name: 'Blog', href: '/blog' },
@@ -25,11 +25,7 @@ export default function Header() {
                         <Link
                             key={item.name}
                             href={item.href}
-                            className={`text-sm font-medium transition-colors relative py-6
-                ${item.active
-                                    ? 'text-[var(--accent-primary)] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[var(--accent-primary)]'
-                                    : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
-                                }`}
+                            className="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:text-[var(--accent-primary)] transition-colors relative py-6"
                         >
                             {item.name}
                         </Link>
