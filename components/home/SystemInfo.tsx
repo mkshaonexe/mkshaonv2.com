@@ -1,6 +1,6 @@
 export default function SystemInfo() {
     return (
-        <div className="bg-[var(--bg-secondary)] rounded-xl border border-[var(--border-color)] overflow-hidden font-mono text-sm shadow-lg mt-6">
+        <div className="bg-[var(--bg-secondary)] rounded-xl border border-[var(--border-color)] overflow-hidden font-mono text-sm shadow-lg">
             {/* Terminal Header */}
             <div className="bg-[var(--bg-tertiary)] px-4 py-3 border-b border-[var(--border-color)] flex items-center justify-between">
                 <span className="text-[var(--text-secondary)]">user@mkshaon.com: ~</span>
