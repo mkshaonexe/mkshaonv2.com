@@ -14,10 +14,10 @@ export default function SystemInfo() {
             {/* Terminal Body */}
             <div className="p-8 text-[#e6edf3] font-fira-code">
                 {/* Logo and Info Split */}
-                <div className="flex flex-col md:flex-row gap-10 items-start">
+                <div className="flex flex-col md:flex-row gap-6 items-start">
 
-                    {/* ASCII Logo - Arch Style (Cyan) */}
-                    <div className="text-[var(--accent-primary)] font-bold leading-none hidden md:block select-none text-[14px]">
+                    {/* ASCII Logo - Arch Style (Cyan) - LARGER */}
+                    <div className="text-[var(--accent-primary)] font-bold leading-none hidden md:block select-none text-[18px] flex-shrink-0">
                         <pre>{`                  -\`
                  .o+\`
                 \`ooo/
@@ -39,16 +39,16 @@ export default function SystemInfo() {
 .\`                                 \`/`}</pre>
                     </div>
 
-                    {/* Info Block */}
-                    <div className="space-y-1 text-[13px] leading-relaxed w-full">
-                        <div className="mb-4">
+                    {/* Info Block - SMALLER Text */}
+                    <div className="space-y-0.5 text-[11px] leading-snug w-full flex-1">
+                        <div className="mb-3">
                             <span className="text-[var(--accent-primary)] font-bold">linuxiac</span>
                             <span className="text-white">@</span>
                             <span className="text-[var(--accent-primary)] font-bold">arch</span>
-                            <div className="h-[1px] w-full bg-[var(--text-secondary)] mt-1 opacity-50 max-w-[280px]"></div>
+                            <div className="h-[1px] w-full bg-[var(--text-secondary)] mt-1 opacity-50 max-w-[240px]"></div>
                         </div>
 
-                        <div className="grid grid-cols-[100px_1fr] gap-x-2">
+                        <div className="grid grid-cols-[90px_1fr] gap-x-2 gap-y-0.5">
                             <span className="text-[var(--accent-primary)] font-bold">OS:</span>
                             <span>Arch Linux x86_64</span>
 
@@ -69,18 +69,6 @@ export default function SystemInfo() {
 
                             <span className="text-[var(--accent-primary)] font-bold">Resolution:</span>
                             <span>1680x1050</span>
-
-                            <span className="text-[var(--accent-primary)] font-bold">DE:</span>
-                            <span>GNOME 46.1</span>
-
-                            <span className="text-[var(--accent-primary)] font-bold">WM:</span>
-                            <span>Mutter</span>
-
-                            <span className="text-[var(--accent-primary)] font-bold">Theme:</span>
-                            <span>Adwaita [GTK2/3]</span>
-
-                            <span className="text-[var(--accent-primary)] font-bold">Icons:</span>
-                            <span>Papirus [GTK2/3]</span>
 
                             <span className="text-[var(--accent-primary)] font-bold">Terminal:</span>
                             <span>kgx</span>
